@@ -1,10 +1,9 @@
 import React from "react";
 import "./App.css";
 import HomePage from "./pages/homepage/homepage.component";
-import { Route, Switch } from "react-router-dom";
+import { Link, Route, Switch } from "react-router-dom";
 
 const HatsPage = (props) => {
-  console.log(props);
   return (
     <div>
       <h1>HATS PAGE</h1>
@@ -50,3 +49,18 @@ function App() {
 }
 
 export default App;
+
+// <Nav />
+// const Nav = () => {
+//   return (
+//     <div>
+//       <ul>
+//         <Link to="/">HomePage</Link>
+//         <Link to="/jackets">JacketsPage</Link>
+//         <Link to="/womans">WomansPage</Link>
+//         <Link to="/mans">MansPage</Link>
+//         <Link to="/hats">HatsPage</Link>
+//       </ul>
+//     </div>
+//   );
+// };
